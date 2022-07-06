@@ -1,0 +1,12 @@
+install eslint
+1.npm install eslint --save-dev
+initial eslint
+2.npx eslint --init
+3.how would you like to use ESLint? to check syntax and find problems
+4.which style guide do you want to follow?airbnb, standard, google,xo
+5.what type of modules does your projects use? commonjs
+6.which framework does your project use?none
+7.Does your project use TypeScript? No
+8.where does you code run? node
+9.what format do you want your config file to be in?
+10.jalankan lint dengan perintah "npm run lint". tapi harus setting di file package.json("lint":"eslint ./")
